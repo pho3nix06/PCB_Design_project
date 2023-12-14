@@ -1,0 +1,7 @@
+"#","Reference","Qty","Value","Footprint","DNP"
+"1","C1","1","C_Polarized","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm",""
+"2","C2","1","10 pF","Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm",""
+"3","J1, J2","2","TSW-133-07-H-S","SAMTEC_TSW-133-07-H-S",""
+"4","R1","1","10k","",""
+"5","U1","1","STM32WB15CCU6","QFPN_15CCU6_STM",""
+"6","Y1","1","32.768 kHz","Crystal:Crystal_HC49-U_Vertical",""
