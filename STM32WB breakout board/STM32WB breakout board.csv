@@ -8,7 +8,7 @@
 "7","D1","1","BAT54W","Package_TO_SOT_SMD:SOT-323_SC-70",""
 "8","FL1","1","DLF162500LT-5028A1","DLF162500LT5028A1",""
 "9","J1, J2","2","TSW-133-07-H-S","SAMTEC_TSW-133-07-H-S",""
-"10","J3","1","Conn_Coaxial","",""
+"10","J3","1","RSP-122811-02","RSP-122811-02:SAMTEC_RSP-122811-02",""
 "11","JP1","1","SolderJumper_2_Open","Resistor_SMD:R_1812_4532Metric",""
 "12","L1","1","LQG15HS2N7S02D","LQG15HS2N7S02D:INDC1005X55N",""
 "13","R2","1","10k","Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder",""
