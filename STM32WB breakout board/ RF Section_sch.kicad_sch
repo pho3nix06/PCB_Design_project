@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2023-12-16")
+  )
+
   (lib_symbols
     (symbol "DLF162500LT-5028A1:DLF162500LT-5028A1" (in_bom yes) (on_board yes)
       (property "Reference" "FL" (at 21.59 17.78 0)
