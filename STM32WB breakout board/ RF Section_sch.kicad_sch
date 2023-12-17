@@ -746,7 +746,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8cacfa6d-8a38-456a-b8ba-80c7d0f76fb0)
   )
-  (text "RF Inductor\n" (at 69.596 44.196 0)
+  (text "2.7 nH\n" (at 71.374 44.196 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e6bd422-cc62-4710-84db-d3f7fbeb35ba)
   )
@@ -1134,13 +1134,13 @@
   )
 
   (symbol (lib_id "LQM21FN100M70L:LQM21FN100M70L") (at 28.448 105.156 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 6233e39b-5517-4bce-9f5c-49a0e64b6183)
-    (property "Reference" "L2" (at 22.352 105.156 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "L3" (at 23.368 103.886 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LQM21FN100M70L" (at 24.892 105.156 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "LQM21FN100M70L" (at 25.654 96.774 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LQM21FN100M70L:INDC2012X145N" (at 28.448 105.156 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
@@ -1180,7 +1180,7 @@
     (instances
       (project "STM32WB breakout board"
         (path "/29424def-bd0e-47af-8787-429d3d525da1/1e4823cc-51de-4557-be75-82cccb133913"
-          (reference "L2") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -1563,7 +1563,7 @@
   (symbol (lib_id "LQG15WZ10NJ02D:LQG15WZ10NJ02D") (at 44.196 93.726 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa680c69-74ec-4bbb-9d9f-8be6bb1239f1)
-    (property "Reference" "L3" (at 44.196 87.63 0)
+    (property "Reference" "L2" (at 44.196 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LQG15WZ10NJ02D" (at 44.196 90.17 0)
@@ -1607,7 +1607,7 @@
     (instances
       (project "STM32WB breakout board"
         (path "/29424def-bd0e-47af-8787-429d3d525da1/1e4823cc-51de-4557-be75-82cccb133913"
-          (reference "L3") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )

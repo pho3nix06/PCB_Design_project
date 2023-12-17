@@ -2410,7 +2410,7 @@
   (symbol (lib_id "Device:Crystal") (at 27.432 173.228 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d92d749-80a4-403d-90d8-633745be81ab)
-    (property "Reference" "Y1" (at 26.162 169.418 0)
+    (property "Reference" "X2" (at 26.162 169.418 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "32.768 kHz" (at 23.114 177.292 0)
@@ -2427,7 +2427,7 @@
     (instances
       (project "STM32WB breakout board"
         (path "/29424def-bd0e-47af-8787-429d3d525da1"
-          (reference "Y1") (unit 1)
+          (reference "X2") (unit 1)
         )
       )
     )
@@ -2681,7 +2681,7 @@
   (symbol (lib_id "Device:Crystal_GND24") (at 60.198 176.276 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5834f83-f09d-4438-b1fe-7d195685cd9d)
-    (property "Reference" "Y2" (at 62.992 172.466 90)
+    (property "Reference" "X1" (at 62.992 172.466 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "32 MHz" (at 65.278 180.34 90)
@@ -2700,7 +2700,7 @@
     (instances
       (project "STM32WB breakout board"
         (path "/29424def-bd0e-47af-8787-429d3d525da1"
-          (reference "Y2") (unit 1)
+          (reference "X1") (unit 1)
         )
       )
     )

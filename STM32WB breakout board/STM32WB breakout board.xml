@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>17-12-2023 22:14:11</date>
+    <date>17-12-2023 22:23:29</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -242,18 +242,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>127dc4d7-ace6-4eb7-a1df-decb2e484f8e</tstamps>
     </comp>
-    <comp ref="Y1">
-      <value>32.768 kHz</value>
-      <footprint>Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical</footprint>
-      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
-      <property name="ki_description" value="Two pin crystal"/>
-      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7d92d749-80a4-403d-90d8-633745be81ab</tstamps>
-    </comp>
-    <comp ref="Y2">
+    <comp ref="X1">
       <value>32 MHz</value>
       <footprint>Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm</footprint>
       <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
@@ -263,6 +252,17 @@
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c5834f83-f09d-4438-b1fe-7d195685cd9d</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>32.768 kHz</value>
+      <footprint>Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d92d749-80a4-403d-90d8-633745be81ab</tstamps>
     </comp>
     <comp ref="C1">
       <value>100nF</value>
@@ -476,37 +476,6 @@ Inductor with Inductance: 2.7nH Tol. +/-0.3nH, Package: 0402 (1005)
       <tstamps>3131d765-d01e-4404-8896-f792a2bda542</tstamps>
     </comp>
     <comp ref="L2">
-      <value>LQM21FN100M70L</value>
-      <footprint>LQM21FN100M70L:INDC2012X145N</footprint>
-      <fields>
-        <field name="Availability">In Stock</field>
-        <field name="Check_prices">https://www.snapeda.com/parts/LQM21FN100M70L/Murata+Electronics+North+America/view-part/?ref=eda</field>
-        <field name="Description">
-Inductor with Inductance: 10uH Tol. +/-20%, Package: 0805 (2012)
-</field>
-        <field name="MF">Murata</field>
-        <field name="MP">LQM21FN100M70L</field>
-        <field name="Package">2012 Bourns</field>
-        <field name="Price">None</field>
-        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=571581&amp;manufacturer=Murata&amp;part_name=LQM21FN100M70L&amp;search_term=murata lqm21fn100m70l</field>
-        <field name="SnapEDA_Link">https://www.snapeda.com/parts/LQM21FN100M70L/Murata+Electronics+North+America/view-part/?ref=snap</field>
-      </fields>
-      <libsource lib="LQM21FN100M70L" part="LQM21FN100M70L" description=""/>
-      <property name="MF" value="Murata"/>
-      <property name="Description" value="&#xA;Inductor with Inductance: 10uH Tol. +/-20%, Package: 0805 (2012)&#xA;"/>
-      <property name="Package" value="2012 Bourns"/>
-      <property name="Price" value="None"/>
-      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/LQM21FN100M70L/Murata+Electronics+North+America/view-part/?ref=snap"/>
-      <property name="MP" value="LQM21FN100M70L"/>
-      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=571581&amp;manufacturer=Murata&amp;part_name=LQM21FN100M70L&amp;search_term=murata lqm21fn100m70l"/>
-      <property name="Availability" value="In Stock"/>
-      <property name="Check_prices" value="https://www.snapeda.com/parts/LQM21FN100M70L/Murata+Electronics+North+America/view-part/?ref=eda"/>
-      <property name="Sheetname" value=" RF &amp; Power "/>
-      <property name="Sheetfile" value=" RF Section_sch.kicad_sch"/>
-      <sheetpath names="/ RF &amp; Power /" tstamps="/1e4823cc-51de-4557-be75-82cccb133913/"/>
-      <tstamps>6233e39b-5517-4bce-9f5c-49a0e64b6183</tstamps>
-    </comp>
-    <comp ref="L3">
       <value>LQG15WZ10NJ02D</value>
       <footprint>LQG15WZ10NJ02D:INDC1006X60N</footprint>
       <fields>
@@ -536,6 +505,37 @@ Inductor with Inductance: 10nH Tol. +/-5%, Package: 0402 (1005)
       <property name="Sheetfile" value=" RF Section_sch.kicad_sch"/>
       <sheetpath names="/ RF &amp; Power /" tstamps="/1e4823cc-51de-4557-be75-82cccb133913/"/>
       <tstamps>fa680c69-74ec-4bbb-9d9f-8be6bb1239f1</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>LQM21FN100M70L</value>
+      <footprint>LQM21FN100M70L:INDC2012X145N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/LQM21FN100M70L/Murata+Electronics+North+America/view-part/?ref=eda</field>
+        <field name="Description">
+Inductor with Inductance: 10uH Tol. +/-20%, Package: 0805 (2012)
+</field>
+        <field name="MF">Murata</field>
+        <field name="MP">LQM21FN100M70L</field>
+        <field name="Package">2012 Bourns</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=571581&amp;manufacturer=Murata&amp;part_name=LQM21FN100M70L&amp;search_term=murata lqm21fn100m70l</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/LQM21FN100M70L/Murata+Electronics+North+America/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="LQM21FN100M70L" part="LQM21FN100M70L" description=""/>
+      <property name="MF" value="Murata"/>
+      <property name="Description" value="&#xA;Inductor with Inductance: 10uH Tol. +/-20%, Package: 0805 (2012)&#xA;"/>
+      <property name="Package" value="2012 Bourns"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/LQM21FN100M70L/Murata+Electronics+North+America/view-part/?ref=snap"/>
+      <property name="MP" value="LQM21FN100M70L"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=571581&amp;manufacturer=Murata&amp;part_name=LQM21FN100M70L&amp;search_term=murata lqm21fn100m70l"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/LQM21FN100M70L/Murata+Electronics+North+America/view-part/?ref=eda"/>
+      <property name="Sheetname" value=" RF &amp; Power "/>
+      <property name="Sheetfile" value=" RF Section_sch.kicad_sch"/>
+      <sheetpath names="/ RF &amp; Power /" tstamps="/1e4823cc-51de-4557-be75-82cccb133913/"/>
+      <tstamps>6233e39b-5517-4bce-9f5c-49a0e64b6183</tstamps>
     </comp>
   </components>
   <libparts>
@@ -954,10 +954,10 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     </net>
     <net code="2" name="/ RF &amp; Power /VFBSMPS">
       <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
     </net>
     <net code="3" name="/ RF &amp; Power /VLXSMPS">
-      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
     </net>
     <net code="4" name="/BOOT0">
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
@@ -977,20 +977,20 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     <net code="7" name="/OSC32_IN">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="PC14-OSC32_IN" pintype="bidirectional"/>
-      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
     <net code="8" name="/OSC32_OUT">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="PC15-OSC32_OUT" pintype="bidirectional"/>
-      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="9" name="/OSC_IN">
       <node ref="U1" pin="25" pinfunction="OSC_IN" pintype="input"/>
-      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="10" name="/OSC_OUT">
       <node ref="U1" pin="24" pinfunction="OSC_OUT" pintype="output"/>
-      <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
     <net code="11" name="/PA0">
       <node ref="J2" pin="16" pinfunction="16" pintype="passive"/>
@@ -1169,8 +1169,8 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="J3" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="49" pinfunction="EPAD" pintype="power_out"/>
-      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="Y2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
     <net code="47" name="Net-(FL1-IN)">
       <node ref="C4" pin="2" pintype="passive"/>
@@ -1181,9 +1181,9 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="FL1" pin="3" pinfunction="OUT" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="SIGNAL" pintype="power_in"/>
     </net>
-    <net code="49" name="Net-(L2-Pad2)">
-      <node ref="L2" pin="2" pintype="passive"/>
-      <node ref="L3" pin="1" pintype="passive"/>
+    <net code="49" name="Net-(L2-Pad1)">
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
     </net>
     <net code="50" name="unconnected-(D1-NC-Pad2)">
       <node ref="D1" pin="2" pinfunction="NC" pintype="no_connect"/>
