@@ -20,4 +20,4 @@
 "19","R3","1","100k","Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder",""
 "20","U1","1","STM32WB15CCU6","QFPN_15CCU6_STM",""
 "21","X1","1","32 MHz","Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",""
-"22","X2","1","32.768 kHz","Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical",""
+"22","X2","1","32.768 kHz","Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm",""

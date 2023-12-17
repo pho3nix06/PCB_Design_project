@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>17-12-2023 22:23:29</date>
+    <date>17-12-2023 22:39:24</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -255,7 +255,7 @@
     </comp>
     <comp ref="X2">
       <value>32.768 kHz</value>
-      <footprint>Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical</footprint>
+      <footprint>Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm</footprint>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
@@ -1135,7 +1135,6 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="J1" pin="18" pinfunction="18" pintype="passive"/>
       <node ref="J1" pin="23" pinfunction="23" pintype="passive"/>
       <node ref="J2" pin="05" pinfunction="05" pintype="passive"/>
-      <node ref="J2" pin="17" pinfunction="17" pintype="passive"/>
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
@@ -1254,52 +1253,55 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     <net code="72" name="unconnected-(J2-Pad04)">
       <node ref="J2" pin="04" pinfunction="04" pintype="passive"/>
     </net>
-    <net code="73" name="unconnected-(J2-Pad21)">
+    <net code="73" name="unconnected-(J2-Pad17)">
+      <node ref="J2" pin="17" pinfunction="17" pintype="passive"/>
+    </net>
+    <net code="74" name="unconnected-(J2-Pad21)">
       <node ref="J2" pin="21" pinfunction="21" pintype="passive"/>
     </net>
-    <net code="74" name="unconnected-(J2-Pad22)">
+    <net code="75" name="unconnected-(J2-Pad22)">
       <node ref="J2" pin="22" pinfunction="22" pintype="passive"/>
     </net>
-    <net code="75" name="unconnected-(J2-Pad23)">
+    <net code="76" name="unconnected-(J2-Pad23)">
       <node ref="J2" pin="23" pinfunction="23" pintype="passive"/>
     </net>
-    <net code="76" name="unconnected-(J2-Pad24)">
+    <net code="77" name="unconnected-(J2-Pad24)">
       <node ref="J2" pin="24" pinfunction="24" pintype="passive"/>
     </net>
-    <net code="77" name="unconnected-(J2-Pad25)">
+    <net code="78" name="unconnected-(J2-Pad25)">
       <node ref="J2" pin="25" pinfunction="25" pintype="passive"/>
     </net>
-    <net code="78" name="unconnected-(J2-Pad26)">
+    <net code="79" name="unconnected-(J2-Pad26)">
       <node ref="J2" pin="26" pinfunction="26" pintype="passive"/>
     </net>
-    <net code="79" name="unconnected-(J2-Pad27)">
+    <net code="80" name="unconnected-(J2-Pad27)">
       <node ref="J2" pin="27" pinfunction="27" pintype="passive"/>
     </net>
-    <net code="80" name="unconnected-(J2-Pad28)">
+    <net code="81" name="unconnected-(J2-Pad28)">
       <node ref="J2" pin="28" pinfunction="28" pintype="passive"/>
     </net>
-    <net code="81" name="unconnected-(J2-Pad29)">
+    <net code="82" name="unconnected-(J2-Pad29)">
       <node ref="J2" pin="29" pinfunction="29" pintype="passive"/>
     </net>
-    <net code="82" name="unconnected-(J2-Pad30)">
+    <net code="83" name="unconnected-(J2-Pad30)">
       <node ref="J2" pin="30" pinfunction="30" pintype="passive"/>
     </net>
-    <net code="83" name="unconnected-(J2-Pad31)">
+    <net code="84" name="unconnected-(J2-Pad31)">
       <node ref="J2" pin="31" pinfunction="31" pintype="passive"/>
     </net>
-    <net code="84" name="unconnected-(J2-Pad32)">
+    <net code="85" name="unconnected-(J2-Pad32)">
       <node ref="J2" pin="32" pinfunction="32" pintype="passive"/>
     </net>
-    <net code="85" name="unconnected-(J2-Pad33)">
+    <net code="86" name="unconnected-(J2-Pad33)">
       <node ref="J2" pin="33" pinfunction="33" pintype="passive"/>
     </net>
-    <net code="86" name="unconnected-(U1-AT0-Pad26)">
+    <net code="87" name="unconnected-(U1-AT0-Pad26)">
       <node ref="U1" pin="26" pinfunction="AT0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U1-AT1-Pad27)">
+    <net code="88" name="unconnected-(U1-AT1-Pad27)">
       <node ref="U1" pin="27" pinfunction="AT1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U1-PB0-Pad28)">
+    <net code="89" name="unconnected-(U1-PB0-Pad28)">
       <node ref="U1" pin="28" pinfunction="PB0" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
