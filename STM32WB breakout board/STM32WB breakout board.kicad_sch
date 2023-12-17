@@ -2022,35 +2022,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 20.574 137.922 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 06c244f7-0520-4618-b605-2d5a7df3bcbf)
-    (property "Reference" "C7" (at 21.59 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4.7 uF" (at 21.336 140.716 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm" (at 21.5392 141.732 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 20.574 137.922 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid f35388c3-210d-4f61-a3a5-c9cf9fb92a55))
-    (pin "1" (uuid 30f9953c-8424-4e47-96c8-645adaa96681))
-    (instances
-      (project "STM32WB breakout board"
-        (path "/29424def-bd0e-47af-8787-429d3d525da1"
-          (reference "C7") (unit 1)
-        )
-        (path "/29424def-bd0e-47af-8787-429d3d525da1/1e4823cc-51de-4557-be75-82cccb133913"
-          (reference "C10") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "STM32WB15CCU6:STM32WB15CCU6") (at 115.316 34.544 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 127dc4d7-ace6-4eb7-a1df-decb2e484f8e)
@@ -2615,6 +2586,35 @@
       (project "STM32WB breakout board"
         (path "/29424def-bd0e-47af-8787-429d3d525da1"
           (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 20.574 137.922 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b7c98ea7-4ee5-4a85-a2be-56c8d4c244e9)
+    (property "Reference" "C7" (at 21.59 135.89 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "4.7 uF" (at 21.336 140.716 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_01005_0402Metric" (at 21.5392 141.732 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 20.574 137.922 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid e2ba3a6c-dd22-46fd-856d-9e8fc5145640))
+    (pin "1" (uuid 2702dfda-1f6b-4391-9d94-099ab066c4a9))
+    (instances
+      (project "STM32WB breakout board"
+        (path "/29424def-bd0e-47af-8787-429d3d525da1"
+          (reference "C7") (unit 1)
+        )
+        (path "/29424def-bd0e-47af-8787-429d3d525da1/1e4823cc-51de-4557-be75-82cccb133913"
+          (reference "C17") (unit 1)
         )
       )
     )

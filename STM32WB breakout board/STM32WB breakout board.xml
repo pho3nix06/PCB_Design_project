@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>17-12-2023 22:43:03</date>
+    <date>17-12-2023 22:50:39</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -66,14 +66,14 @@
     </comp>
     <comp ref="C7">
       <value>4.7 uF</value>
-      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <footprint>Capacitor_SMD:C_01005_0402Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>06c244f7-0520-4618-b605-2d5a7df3bcbf</tstamps>
+      <tstamps>b7c98ea7-4ee5-4a85-a2be-56c8d4c244e9</tstamps>
     </comp>
     <comp ref="C8">
       <value>100nF</value>
@@ -350,14 +350,14 @@ SMD Capacitor C0G(EIA) with Capacitance: 0.30pF Tol. 0.05pF. Rated Voltage: 50Vd
     </comp>
     <comp ref="C12">
       <value>4.7 uF</value>
-      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <footprint>Capacitor_SMD:C_01005_0402Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=" RF &amp; Power "/>
       <property name="Sheetfile" value=" RF Section_sch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/ RF &amp; Power /" tstamps="/1e4823cc-51de-4557-be75-82cccb133913/"/>
-      <tstamps>64731450-0007-4345-acfc-a6a829a5f669</tstamps>
+      <tstamps>d368577a-11d1-4858-8057-5c39ca1bc2f8</tstamps>
     </comp>
     <comp ref="C13">
       <value>100nF</value>
@@ -372,7 +372,7 @@ SMD Capacitor C0G(EIA) with Capacitance: 0.30pF Tol. 0.05pF. Rated Voltage: 50Vd
     </comp>
     <comp ref="C17">
       <value>4.7 uF</value>
-      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <footprint>Capacitor_SMD:C_01005_0402Metric</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=" RF &amp; Power "/>
       <property name="Sheetfile" value=" RF Section_sch.kicad_sch"/>
