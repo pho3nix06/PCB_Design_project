@@ -1,4 +1,4 @@
-22223729925864474
+22225434444066336
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2295,6 +2295,13 @@ SW PUSH SMALL Tactile C&K
 0
 4
 2
+Button_Switch_THT
+TS026670BK160LCRD
+TS02-66-70-BK-160-LCR-D-2
+Switch
+0
+4
+4
 Buzzer_Beeper
 Buzzer_12x9.5RM7.6
 Generic Buzzer, D12mm height 9.5mm with RM7.6mm
@@ -51918,6 +51925,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DLF162500LT-5028A1
+Filter_DLF162500LT5028A1
+DLF162500LT-5028A1-2
+Filter
+0
+4
+4
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -53948,6 +53962,13 @@ fiducial
 0
 1
 0
+Filter
+DLF162500LT5028A1
+DLF162500LT-5028A1-2
+Filter
+0
+4
+4
 Filter
 Filter_1109-5_1.1x0.9mm
 5-pin SAW filter package - 1.1x0.9 mm Body; (see https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en-gb)
@@ -60319,7 +60340,7 @@ solder jumper open
 5
 3
 KiCad
-DLF162500LT5028A1
+Filter_DLF162500LT5028A1
 DLF162500LT-5028A1-2
 Filter
 0
@@ -61463,13 +61484,6 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
-0
-2
-2
-LQG15HS2N7S02D
-INDC1005X55N
-
-
 0
 2
 2
@@ -81094,13 +81108,6 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
-Push button
-SW_TS02-66-70-BK-160-LCR-D
-
-
-0
-4
-4
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf

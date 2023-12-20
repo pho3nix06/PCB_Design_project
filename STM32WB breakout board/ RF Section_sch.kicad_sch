@@ -1626,7 +1626,7 @@
     (property "Value" "DLF162500LT-5028A1" (at 154.432 47.752 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "DLF162500LT5028A1" (at 144.018 125.908 0)
+    (property "Footprint" "Filter:DLF162500LT5028A1" (at 144.018 125.908 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/rf/rf/filter/catalog/rf_lpf_dlf162500lt-5028a1_en.pdf" (at 144.018 225.908 0)
