@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>20-12-2023 22:15:48</date>
+    <date>20-12-2023 23:55:40</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -220,16 +220,59 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>158b3298-daf3-45e9-9695-9fe324da777e</tstamps>
     </comp>
-    <comp ref="R3">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+    <comp ref="S1">
+      <value>USER BUTTON</value>
+      <footprint>TS026670BK160LCRD</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/ts02.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TS02-66-70-BK-160-LCR-D</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ts02-66-70-bk-160-lcr-d/cui-devices?region=nac</field>
+        <field name="Height">7.2</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">TS02-66-70-BK-160-LCR-D</field>
+        <field name="Mouser Part Number">179-TS026670BK160LCR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-70-BK-160-LCR-D?qs=A6eO%252BMLsxmSQ8aVkS4Cu7Q%3D%3D</field>
+      </fields>
+      <libsource lib="TS02-66-70-BK-160-LCR-D" part="TS02-66-70-BK-160-LCR-D" description="Tactile Switches 6 x 6 mm, 7 mm Act Height, 160 gf, Black, Long Crimped, Through Hole, SPST,"/>
+      <property name="Height" value="7.2"/>
+      <property name="Manufacturer_Name" value="CUI Devices"/>
+      <property name="Manufacturer_Part_Number" value="TS02-66-70-BK-160-LCR-D"/>
+      <property name="Mouser Part Number" value="179-TS026670BK160LCR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-70-BK-160-LCR-D?qs=A6eO%252BMLsxmSQ8aVkS4Cu7Q%3D%3D"/>
+      <property name="Arrow Part Number" value="TS02-66-70-BK-160-LCR-D"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/ts02-66-70-bk-160-lcr-d/cui-devices?region=nac"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
-      <property name="ki_description" value="Resistor, US symbol"/>
-      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_description" value="Tactile Switches 6 x 6 mm, 7 mm Act Height, 160 gf, Black, Long Crimped, Through Hole, SPST,"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5844cb4f-b75e-41c0-b9a0-e875c03ca85b</tstamps>
+      <tstamps>e4e9f68e-7ef4-496c-8fc5-462573ab7f89</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>RESET</value>
+      <footprint>TS026670BK160LCRD</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/ts02.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TS02-66-70-BK-160-LCR-D</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ts02-66-70-bk-160-lcr-d/cui-devices?region=nac</field>
+        <field name="Height">7.2</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">TS02-66-70-BK-160-LCR-D</field>
+        <field name="Mouser Part Number">179-TS026670BK160LCR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-70-BK-160-LCR-D?qs=A6eO%252BMLsxmSQ8aVkS4Cu7Q%3D%3D</field>
+      </fields>
+      <libsource lib="TS02-66-70-BK-160-LCR-D" part="TS02-66-70-BK-160-LCR-D" description="Tactile Switches 6 x 6 mm, 7 mm Act Height, 160 gf, Black, Long Crimped, Through Hole, SPST,"/>
+      <property name="Height" value="7.2"/>
+      <property name="Manufacturer_Name" value="CUI Devices"/>
+      <property name="Manufacturer_Part_Number" value="TS02-66-70-BK-160-LCR-D"/>
+      <property name="Mouser Part Number" value="179-TS026670BK160LCR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-70-BK-160-LCR-D?qs=A6eO%252BMLsxmSQ8aVkS4Cu7Q%3D%3D"/>
+      <property name="Arrow Part Number" value="TS02-66-70-BK-160-LCR-D"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/ts02-66-70-bk-160-lcr-d/cui-devices?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
+      <property name="ki_description" value="Tactile Switches 6 x 6 mm, 7 mm Act Height, 160 gf, Black, Long Crimped, Through Hole, SPST,"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d0fb454-8314-41ac-9d77-d94782696473</tstamps>
     </comp>
     <comp ref="U1">
       <value>STM32WB15CCU6</value>
@@ -383,7 +426,7 @@ SMD Capacitor C0G(EIA) with Capacitance: 0.30pF Tol. 0.05pF. Rated Voltage: 50Vd
     </comp>
     <comp ref="FL1">
       <value>DLF162500LT-5028A1</value>
-      <footprint>DLF162500LT5028A1</footprint>
+      <footprint>Filter:DLF162500LT5028A1</footprint>
       <datasheet>https://product.tdk.com/system/files/dam/doc/product/rf/rf/filter/catalog/rf_lpf_dlf162500lt-5028a1_en.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">DLF162500LT-5028A1</field>
@@ -863,6 +906,29 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
         <pin num="49" name="EPAD" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="TS02-66-70-BK-160-LCR-D" part="TS02-66-70-BK-160-LCR-D">
+      <description>Tactile Switches 6 x 6 mm, 7 mm Act Height, 160 gf, Black, Long Crimped, Through Hole, SPST,</description>
+      <docs>https://www.cuidevices.com/product/resource/ts02.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">TS02-66-70-BK-160-LCR-D</field>
+        <field name="Footprint">TS026670BK160LCRD</field>
+        <field name="Datasheet">https://www.cuidevices.com/product/resource/ts02.pdf</field>
+        <field name="Height">7.2</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">TS02-66-70-BK-160-LCR-D</field>
+        <field name="Mouser Part Number">179-TS026670BK160LCR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-70-BK-160-LCR-D?qs=A6eO%252BMLsxmSQ8aVkS4Cu7Q%3D%3D</field>
+        <field name="Arrow Part Number">TS02-66-70-BK-160-LCR-D</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ts02-66-70-bk-160-lcr-d/cui-devices?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NO_1" type="passive"/>
+        <pin num="2" name="NO_2" type="passive"/>
+        <pin num="3" name="COM_1" type="passive"/>
+        <pin num="4" name="COM_2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="TSW-133-07-H-S" part="TSW-133-07-H-S">
       <fields>
         <field name="Reference">J</field>
@@ -943,6 +1009,9 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     <library logical="STM32WB15CCU6">
       <uri>D:/KiCAD 7/External footprints/STM32WB15CCU6/2023-07-29_07-31-23.kicad_sym</uri>
     </library>
+    <library logical="TS02-66-70-BK-160-LCR-D">
+      <uri>D:/KiCAD 7/External footprints/Button/TS02-66-70-BK-160-LCR-D/KiCad/TS02-66-70-BK-160-LCR-D.kicad_sym</uri>
+    </library>
     <library logical="TSW-133-07-H-S">
       <uri>D:/KiCAD 7/External footprints/2.54 mm header/TSW-133-07-H-S.kicad_sym</uri>
     </library>
@@ -956,7 +1025,7 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     <net code="2" name="/NRST">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="NO_1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="NRST" pintype="bidirectional"/>
     </net>
     <net code="3" name="/NRST_Pin">
@@ -1136,7 +1205,6 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="J1" pin="23" pinfunction="23" pintype="passive"/>
       <node ref="J2" pin="05" pinfunction="05" pintype="passive"/>
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
       <node ref="U1" pin="20" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="35" pinfunction="VDD" pintype="power_in"/>
@@ -1167,6 +1235,7 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="J3" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="J3" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="S2" pin="4" pinfunction="COM_2" pintype="passive"/>
       <node ref="U1" pin="49" pinfunction="EPAD" pintype="power_out"/>
       <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="X1" pin="4" pinfunction="4" pintype="passive"/>
@@ -1295,13 +1364,31 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     <net code="86" name="unconnected-(J2-Pad33)">
       <node ref="J2" pin="33" pinfunction="33" pintype="passive"/>
     </net>
-    <net code="87" name="unconnected-(U1-AT0-Pad26)">
+    <net code="87" name="unconnected-(S1-COM_1-Pad3)">
+      <node ref="S1" pin="3" pinfunction="COM_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(S1-COM_2-Pad4)">
+      <node ref="S1" pin="4" pinfunction="COM_2" pintype="passive"/>
+    </net>
+    <net code="89" name="unconnected-(S1-NO_1-Pad1)">
+      <node ref="S1" pin="1" pinfunction="NO_1" pintype="passive"/>
+    </net>
+    <net code="90" name="unconnected-(S1-NO_2-Pad2)">
+      <node ref="S1" pin="2" pinfunction="NO_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(S2-COM_1-Pad3)">
+      <node ref="S2" pin="3" pinfunction="COM_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(S2-NO_2-Pad2)">
+      <node ref="S2" pin="2" pinfunction="NO_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U1-AT0-Pad26)">
       <node ref="U1" pin="26" pinfunction="AT0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U1-AT1-Pad27)">
+    <net code="94" name="unconnected-(U1-AT1-Pad27)">
       <node ref="U1" pin="27" pinfunction="AT1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(U1-PB0-Pad28)">
+    <net code="95" name="unconnected-(U1-PB0-Pad28)">
       <node ref="U1" pin="28" pinfunction="PB0" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
