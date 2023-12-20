@@ -2600,7 +2600,7 @@
     (property "Value" "4.7 uF" (at 21.336 140.716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_01005_0402Metric" (at 21.5392 141.732 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 21.5392 141.732 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 20.574 137.922 0)
