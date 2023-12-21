@@ -389,7 +389,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "SMA-J-P-H-ST-TH1"
+    ]
   },
   "meta": {
     "filename": "STM32WB breakout board.kicad_pro",
