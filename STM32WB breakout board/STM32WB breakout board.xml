@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>24-12-2023 14:32:16</date>
+    <date>24-12-2023 14:49:37</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -232,7 +232,7 @@
     </comp>
     <comp ref="R1">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
@@ -243,7 +243,7 @@
     </comp>
     <comp ref="R2">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
@@ -254,7 +254,7 @@
     </comp>
     <comp ref="R3">
       <value>100k</value>
-      <footprint>Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
