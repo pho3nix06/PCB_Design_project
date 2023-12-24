@@ -9,7 +9,7 @@
 "8","C16","1","10 nF","Capacitor_SMD:C_0402_1005Metric",""
 "9","D1","1","BAT54W","Package_TO_SOT_SMD:SOT-323_SC-70",""
 "10","FL1","1","DLF162500LT-5028A1","Filter:DLF162500LT5028A1",""
-"11","J1, J2","2","Conn_02x10_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical",""
+"11","J1, J2, J4, J5","4","Conn_02x10_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical",""
 "12","J3","1","RSP-122811-02","RSP-122811-02:SAMTEC_RSP-122811-02",""
 "13","JP1","1","SolderJumper_2_Open","Resistor_SMD:R_1812_4532Metric",""
 "14","L1","1","LQG15HS2N7S02D","LQG15HS2N7S02D:INDC1005X55N",""
