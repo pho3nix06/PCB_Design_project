@@ -742,6 +742,10 @@
     (uuid d34f9734-a8f3-44dc-a9f7-1f8eeafc3c62)
   )
 
+  (text "SMPS Section" (at 72.263 83.058 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 76146fb0-1b84-4135-9fb7-2ca48a34f56d)
+  )
   (text "10 uH" (at 30.988 107.95 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8cacfa6d-8a38-456a-b8ba-80c7d0f76fb0)
