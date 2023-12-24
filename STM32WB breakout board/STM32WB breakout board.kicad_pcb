@@ -1842,7 +1842,7 @@
 
   (footprint "RSP-122811-02:SAMTEC_RSP-122811-02" (layer "F.Cu")
     (tstamp 3d30ac5e-5d5b-4079-957e-a4c2b961f82f)
-    (at 123.46 55.88)
+    (at 134 60.995)
     (property "Availability" "In Stock")
     (property "Check_prices" "https://www.snapeda.com/parts/RSP-122811-02/Samtec+Inc./view-part/?ref=eda")
     (property "Description" "\nIPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder\n")
@@ -2669,7 +2669,7 @@
 
   (footprint "Button_Switch_THT:TS026670BK160LCRD" (layer "F.Cu")
     (tstamp 62c58bef-f0cf-45f1-8b32-88c425148a34)
-    (at 118 61)
+    (at 119.59 59.02)
     (descr "TS02-66-70-BK-160-LCR-D-2")
     (tags "Switch")
     (property "Arrow Part Number" "TS02-66-70-BK-160-LCR-D")
