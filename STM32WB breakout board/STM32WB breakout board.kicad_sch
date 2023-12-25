@@ -3457,7 +3457,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 1e4823cc-51de-4557-be75-82cccb133913)
-    (property "Sheetname" "RF & Power" (at 257.81 125.476 0)
+    (property "Sheetname" "RF & SMPS" (at 257.81 125.476 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" " RF Section_sch.kicad_sch" (at 250.698 144.0946 0)
