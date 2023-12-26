@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>26-12-2023 22:12:55</date>
+    <date>26-12-2023 22:16:29</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1275,10 +1275,10 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     </net>
     <net code="35" name="/RF &amp; Power/VFBSMPS">
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
     </net>
     <net code="36" name="/RF &amp; Power/VLXSMPS">
-      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
     </net>
     <net code="37" name="/RF1">
       <node ref="U1" pin="21" pinfunction="RF1" pintype="bidirectional"/>
@@ -1391,9 +1391,9 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="FL1" pin="3" pinfunction="OUT" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="SIGNAL" pintype="power_in"/>
     </net>
-    <net code="51" name="Net-(L1-Pad2)">
-      <node ref="L1" pin="2" pintype="passive"/>
-      <node ref="L2" pin="1" pintype="passive"/>
+    <net code="51" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
     </net>
     <net code="52" name="Net-(S1-NO_2)">
       <node ref="R1" pin="1" pintype="passive"/>
