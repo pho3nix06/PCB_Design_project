@@ -1527,7 +1527,7 @@
     (property "Value" "LQG15HS2N7S02D" (at 78.74 43.688 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LQG15HS2N7S02D:INDC1005X55N" (at 78.74 46.99 0)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 78.74 46.99 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 78.74 46.99 0)
