@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>26-12-2023 21:29:24</date>
+    <date>26-12-2023 21:36:12</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -480,6 +480,7 @@ SMD Capacitor C0G(EIA) with Capacitance: 0.30pF Tol. 0.05pF. Rated Voltage: 50Vd
     </comp>
     <comp ref="C21">
       <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Sheetname" value="RF &amp; Power"/>
       <property name="Sheetfile" value=" RF Section_sch.kicad_sch"/>

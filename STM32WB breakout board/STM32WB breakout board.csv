@@ -8,7 +8,7 @@
 "7","C15","1","1 uF","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",""
 "8","C16","1","10 nF","Capacitor_SMD:C_0402_1005Metric",""
 "9","C19","1","0.1uF","Capacitor_SMD:C_0402_1005Metric",""
-"10","C21","1","100uF","",""
+"10","C21","1","100uF","Capacitor_SMD:C_0402_1005Metric",""
 "11","D1","1","BAT54W","Package_TO_SOT_SMD:SOT-323_SC-70",""
 "12","FL1","1","DLF162500LT-5028A1","Filter:DLF162500LT5028A1",""
 "13","J1, J2, J4, J5","4","Conn_02x10_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical",""
