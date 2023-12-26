@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>26-12-2023 22:16:29</date>
+    <date>26-12-2023 22:58:01</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -265,7 +265,7 @@
     </comp>
     <comp ref="S1">
       <value>USER BUTTON</value>
-      <footprint>TS026670BK160LCRD</footprint>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
       <datasheet>https://www.cuidevices.com/product/resource/ts02.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TS02-66-70-BK-160-LCR-D</field>
@@ -292,7 +292,7 @@
     </comp>
     <comp ref="S2">
       <value>RESET</value>
-      <footprint>TS026670BK160LCRD</footprint>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
       <datasheet>https://www.cuidevices.com/product/resource/ts02.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">TS02-66-70-BK-160-LCR-D</field>
@@ -616,7 +616,7 @@ Inductor with Inductance: 10nH Tol. +/-5%, Package: 0402 (1005)
     </comp>
     <comp ref="L3">
       <value>LQG15HS2N7S02D</value>
-      <footprint>LQG15HS2N7S02D:INDC1005X55N</footprint>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
       <fields>
         <field name="Availability">In Stock</field>
         <field name="Check_prices">https://www.snapeda.com/parts/LQG15HS2N7S02D/Murata+Electronics+North+America/view-part/?ref=eda</field>
@@ -1096,6 +1096,9 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     </library>
     <library logical="Jumper">
       <uri>D:\KiCAD 7\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="LQG15HS2N7S02D">
+      <uri>D:/KiCAD 7/External footprints/LQG15HS2N7S02D/LQG15HS2N7S02D/KiCad/LQG15HS2N7S02D.kicad_sym</uri>
     </library>
     <library logical="LQM21FN100M70L">
       <uri>D:/KiCAD 7/External footprints/LQM21FN100M70L/LQM21FN100M70L.kicad_sym</uri>
