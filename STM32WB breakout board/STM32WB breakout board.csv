@@ -23,7 +23,7 @@
 "22","R3","1","100k","Resistor_SMD:R_1206_3216Metric",""
 "23","S1","1","USER BUTTON","Button_Switch_THT:SW_PUSH_6mm",""
 "24","S2","1","RESET","Button_Switch_THT:SW_PUSH_6mm",""
-"25","U1","1","STM32WB15CCU6","QFPN_15CCU6_STM",""
+"25","U1","1","STM32WB15CCU6","Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm",""
 "26","U2","1","LD1117S33TR_SOT223","Package_TO_SOT_SMD:SOT-223-3_TabPin2",""
 "27","X1","1","32 MHz","Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",""
 "28","X2","1","32.768 kHz","Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm",""

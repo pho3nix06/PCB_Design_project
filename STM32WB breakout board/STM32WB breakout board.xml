@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>27-12-2023 23:02:26</date>
+    <date>31-12-2023 12:11:46</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -217,7 +217,7 @@
       <property name="ki_description" value="Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e2512472-3493-48f2-acef-f2a9a7051bf6</tstamps>
+      <tstamps>358094fd-9215-46d0-b175-9e890c8416b1</tstamps>
     </comp>
     <comp ref="JP1">
       <value>SolderJumper_2_Open</value>
@@ -319,14 +319,15 @@
     </comp>
     <comp ref="U1">
       <value>STM32WB15CCU6</value>
-      <footprint>QFPN_15CCU6_STM</footprint>
-      <datasheet>STM32WB15CCU6</datasheet>
-      <libsource lib="STM32WB15CCU6" part="STM32WB15CCU6" description=""/>
+      <footprint>Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32wb15cc.pdf</datasheet>
+      <libsource lib="MCU_ST_STM32WB" part="STM32WB15CCUx" description="STMicroelectronics Arm Cortex-M4 MCU, 320KB flash, 48KB RAM, 64 MHz, 1.71-3.6V, 30 GPIO, UFQFPN48"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>
-      <property name="ki_keywords" value="STM32WB15CCU6"/>
+      <property name="ki_description" value="STMicroelectronics Arm Cortex-M4 MCU, 320KB flash, 48KB RAM, 64 MHz, 1.71-3.6V, 30 GPIO, UFQFPN48"/>
+      <property name="ki_keywords" value="Arm Cortex-M4 STM32WB STM32WBx5"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>127dc4d7-ace6-4eb7-a1df-decb2e484f8e</tstamps>
+      <tstamps>0f175f00-f2ec-49e0-bb3c-f8aad6daeab3</tstamps>
     </comp>
     <comp ref="X1">
       <value>32 MHz</value>
@@ -986,6 +987,70 @@ Inductor with Inductance: 10uH Tol. +/-20%, Package: 0805 (2012)
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="MCU_ST_STM32WB" part="STM32WB15CCUx">
+      <description>STMicroelectronics Arm Cortex-M4 MCU, 320KB flash, 48KB RAM, 64 MHz, 1.71-3.6V, 30 GPIO, UFQFPN48</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32wb15cc.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32WB15CCUx</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32wb15cc.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC14" type="bidirectional"/>
+        <pin num="3" name="PC15" type="bidirectional"/>
+        <pin num="4" name="PH3" type="bidirectional"/>
+        <pin num="5" name="PB8" type="bidirectional"/>
+        <pin num="6" name="PB9" type="bidirectional"/>
+        <pin num="7" name="NRST(PB11)" type="input"/>
+        <pin num="8" name="VDDA" type="power_in"/>
+        <pin num="9" name="PA0" type="bidirectional"/>
+        <pin num="10" name="PA1" type="bidirectional"/>
+        <pin num="11" name="PA2" type="bidirectional"/>
+        <pin num="12" name="PA3" type="bidirectional"/>
+        <pin num="13" name="PA4" type="bidirectional"/>
+        <pin num="14" name="PA5" type="bidirectional"/>
+        <pin num="15" name="PA6" type="bidirectional"/>
+        <pin num="16" name="PA7" type="bidirectional"/>
+        <pin num="17" name="PA8" type="bidirectional"/>
+        <pin num="18" name="PA9" type="bidirectional"/>
+        <pin num="19" name="PB2" type="bidirectional"/>
+        <pin num="20" name="VDD" type="power_in"/>
+        <pin num="21" name="RF1" type="bidirectional"/>
+        <pin num="22" name="VSSRF" type="power_in"/>
+        <pin num="23" name="VDDRF" type="power_in"/>
+        <pin num="24" name="OSC_OUT" type="input"/>
+        <pin num="25" name="OSC_IN" type="input"/>
+        <pin num="26" name="AT0" type="no_connect"/>
+        <pin num="27" name="AT1" type="no_connect"/>
+        <pin num="28" name="PB0" type="bidirectional"/>
+        <pin num="29" name="PB1" type="bidirectional"/>
+        <pin num="30" name="PE4" type="bidirectional"/>
+        <pin num="31" name="VFBSMPS" type="input"/>
+        <pin num="32" name="VSSSMPS" type="power_in"/>
+        <pin num="33" name="VLXSMPS" type="power_in"/>
+        <pin num="34" name="VDDSMPS" type="power_in"/>
+        <pin num="35" name="VDD" type="power_in"/>
+        <pin num="36" name="PA10" type="bidirectional"/>
+        <pin num="37" name="PA11" type="bidirectional"/>
+        <pin num="38" name="PA12" type="bidirectional"/>
+        <pin num="39" name="PA13" type="bidirectional"/>
+        <pin num="40" name="VDD" type="power_in"/>
+        <pin num="41" name="PA14" type="bidirectional"/>
+        <pin num="42" name="PA15" type="bidirectional"/>
+        <pin num="43" name="PB3" type="bidirectional"/>
+        <pin num="44" name="PB4" type="bidirectional"/>
+        <pin num="45" name="PB5" type="bidirectional"/>
+        <pin num="46" name="PB6" type="bidirectional"/>
+        <pin num="47" name="PB7" type="bidirectional"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="RSP-122811-02" part="RSP-122811-02">
       <fields>
         <field name="Reference">J</field>
@@ -1028,71 +1093,6 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
         <pin num="1" name="GND" type="power_in"/>
         <pin num="2" name="VO" type="power_out"/>
         <pin num="3" name="VI" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="STM32WB15CCU6" part="STM32WB15CCU6">
-      <docs>STM32WB15CCU6</docs>
-      <footprints>
-        <fp>QFPN_15CCU6_STM</fp>
-        <fp>QFPN_15CCU6_STM-M</fp>
-        <fp>QFPN_15CCU6_STM-L</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">STM32WB15CCU6</field>
-        <field name="Footprint">QFPN_15CCU6_STM</field>
-        <field name="Datasheet">STM32WB15CCU6</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBAT" type="power_in"/>
-        <pin num="2" name="PC14-OSC32_IN" type="bidirectional"/>
-        <pin num="3" name="PC15-OSC32_OUT" type="bidirectional"/>
-        <pin num="4" name="PH3-BOOT0" type="bidirectional"/>
-        <pin num="5" name="PB8" type="bidirectional"/>
-        <pin num="6" name="PB9" type="bidirectional"/>
-        <pin num="7" name="NRST" type="bidirectional"/>
-        <pin num="8" name="VDDA" type="power_in"/>
-        <pin num="9" name="PA0" type="bidirectional"/>
-        <pin num="10" name="PA1" type="bidirectional"/>
-        <pin num="11" name="PA2" type="bidirectional"/>
-        <pin num="12" name="PA3" type="bidirectional"/>
-        <pin num="13" name="PA4" type="bidirectional"/>
-        <pin num="14" name="PA5" type="bidirectional"/>
-        <pin num="15" name="PA6" type="bidirectional"/>
-        <pin num="16" name="PA7" type="bidirectional"/>
-        <pin num="17" name="PA8" type="bidirectional"/>
-        <pin num="18" name="PA9" type="bidirectional"/>
-        <pin num="19" name="PB2" type="bidirectional"/>
-        <pin num="20" name="VDD" type="power_in"/>
-        <pin num="21" name="RF1" type="bidirectional"/>
-        <pin num="22" name="VSSRF" type="power_in"/>
-        <pin num="23" name="VDDRF" type="power_in"/>
-        <pin num="24" name="OSC_OUT" type="output"/>
-        <pin num="25" name="OSC_IN" type="input"/>
-        <pin num="26" name="AT0" type="bidirectional"/>
-        <pin num="27" name="AT1" type="bidirectional"/>
-        <pin num="28" name="PB0" type="bidirectional"/>
-        <pin num="29" name="PB1" type="bidirectional"/>
-        <pin num="30" name="PE4" type="bidirectional"/>
-        <pin num="31" name="VFBSMPS" type="power_in"/>
-        <pin num="32" name="VSSSMPS" type="power_in"/>
-        <pin num="33" name="VLXSMPS" type="power_in"/>
-        <pin num="34" name="VDDSMPS" type="power_in"/>
-        <pin num="35" name="VDD" type="power_in"/>
-        <pin num="36" name="PA10" type="bidirectional"/>
-        <pin num="37" name="PA11" type="bidirectional"/>
-        <pin num="38" name="PA12" type="bidirectional"/>
-        <pin num="39" name="PA13" type="bidirectional"/>
-        <pin num="40" name="VDD" type="power_in"/>
-        <pin num="41" name="PA14" type="bidirectional"/>
-        <pin num="42" name="PA15" type="bidirectional"/>
-        <pin num="43" name="PB3" type="bidirectional"/>
-        <pin num="44" name="PB4" type="bidirectional"/>
-        <pin num="45" name="PB5" type="bidirectional"/>
-        <pin num="46" name="PB6" type="bidirectional"/>
-        <pin num="47" name="PB7" type="bidirectional"/>
-        <pin num="48" name="VDD" type="power_in"/>
-        <pin num="49" name="EPAD" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="TS02-66-70-BK-160-LCR-D" part="TS02-66-70-BK-160-LCR-D">
@@ -1150,14 +1150,14 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     <library logical="LQM21FN100M70L">
       <uri>D:/KiCAD 7/External footprints/LQM21FN100M70L/LQM21FN100M70L.kicad_sym</uri>
     </library>
+    <library logical="MCU_ST_STM32WB">
+      <uri>D:\KiCAD 7\7.0\share\kicad\symbols\/MCU_ST_STM32WB.kicad_sym</uri>
+    </library>
     <library logical="RSP-122811-02">
       <uri>D:/KiCAD 7/External footprints/RSP-122811-02/RSP-122811-02.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
       <uri>D:\KiCAD 7\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
-    </library>
-    <library logical="STM32WB15CCU6">
-      <uri>D:/KiCAD 7/External footprints/STM32WB15CCU6/2023-07-29_07-31-23.kicad_sym</uri>
     </library>
     <library logical="TS02-66-70-BK-160-LCR-D">
       <uri>D:/KiCAD 7/External footprints/Button/TS02-66-70-BK-160-LCR-D/KiCad/TS02-66-70-BK-160-LCR-D.kicad_sym</uri>
@@ -1167,7 +1167,7 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     <net code="1" name="/BOOT0">
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="PH3-BOOT0" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="PH3" pintype="bidirectional"/>
     </net>
     <net code="2" name="/LPUART_RX{slash}PA3">
       <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
@@ -1191,7 +1191,7 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="S2" pin="1" pinfunction="NO_1" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="NRST" pintype="bidirectional"/>
+      <node ref="U1" pin="7" pinfunction="NRST(PB11)" pintype="input"/>
     </net>
     <net code="7" name="/NRST_Pin">
       <node ref="D1" pin="3" pinfunction="K" pintype="passive"/>
@@ -1200,12 +1200,12 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     </net>
     <net code="8" name="/OSC32_IN">
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="PC14-OSC32_IN" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="PC14" pintype="bidirectional"/>
       <node ref="X2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
     <net code="9" name="/OSC32_OUT">
       <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="PC15-OSC32_OUT" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="PC15" pintype="bidirectional"/>
       <node ref="X2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="10" name="/OSC_IN">
@@ -1213,7 +1213,7 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="11" name="/OSC_OUT">
-      <node ref="U1" pin="24" pinfunction="OSC_OUT" pintype="output"/>
+      <node ref="U1" pin="24" pinfunction="OSC_OUT" pintype="input"/>
       <node ref="X1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
     <net code="12" name="/PA0">
@@ -1300,38 +1300,38 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="47" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="30" name="/PB8{slash}SCL">
-      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="PB8" pintype="bidirectional"/>
-    </net>
-    <net code="31" name="/PB9{slash}SDA">
-      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="PB9" pintype="bidirectional"/>
-    </net>
-    <net code="32" name="/PE4">
+    <net code="30" name="/PE4">
       <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="U1" pin="30" pinfunction="PE4" pintype="bidirectional"/>
     </net>
-    <net code="33" name="/RF &amp; Power/RF1">
+    <net code="31" name="/RF &amp; Power/RF1">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="L3" pin="1" pintype="passive"/>
     </net>
-    <net code="34" name="/RF &amp; Power/VFBSMPS">
+    <net code="32" name="/RF &amp; Power/VFBSMPS">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
     </net>
-    <net code="35" name="/RF &amp; Power/VLXSMPS">
+    <net code="33" name="/RF &amp; Power/VLXSMPS">
       <node ref="L2" pin="1" pintype="passive"/>
     </net>
-    <net code="36" name="/RF1">
+    <net code="34" name="/RF1">
       <node ref="U1" pin="21" pinfunction="RF1" pintype="bidirectional"/>
     </net>
-    <net code="37" name="/SCK{slash}PA1">
+    <net code="35" name="/SCK{slash}PA1">
       <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/SCL{slash}PB8">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/SDA{slash}PB9">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PB9" pintype="bidirectional"/>
     </net>
     <net code="38" name="/SWCLK">
       <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
@@ -1355,16 +1355,13 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
     <net code="42" name="/VDDSMPS">
       <node ref="U1" pin="34" pinfunction="VDDSMPS" pintype="power_in"/>
     </net>
-    <net code="43" name="/VDDUSB">
-      <node ref="U1" pin="40" pinfunction="VDD" pintype="power_in"/>
+    <net code="43" name="/VFBSMPS">
+      <node ref="U1" pin="31" pinfunction="VFBSMPS" pintype="input"/>
     </net>
-    <net code="44" name="/VFBSMPS">
-      <node ref="U1" pin="31" pinfunction="VFBSMPS" pintype="power_in"/>
-    </net>
-    <net code="45" name="/VLXSMPS">
+    <net code="44" name="/VLXSMPS">
       <node ref="U1" pin="33" pinfunction="VLXSMPS" pintype="power_in"/>
     </net>
-    <net code="46" name="3V3">
+    <net code="45" name="3V3">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
@@ -1384,11 +1381,12 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
       <node ref="U1" pin="20" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="35" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="40" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="48" pinfunction="VDD" pintype="power_in"/>
       <node ref="U1" pin="8" pinfunction="VDDA" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
     </net>
-    <net code="47" name="GND">
+    <net code="46" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -1425,134 +1423,134 @@ IPEX MHFIII Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
       <node ref="S2" pin="4" pinfunction="COM_2" pintype="passive"/>
       <node ref="U1" pin="22" pinfunction="VSSRF" pintype="power_in"/>
       <node ref="U1" pin="32" pinfunction="VSSSMPS" pintype="power_in"/>
-      <node ref="U1" pin="49" pinfunction="EPAD" pintype="power_out"/>
+      <node ref="U1" pin="49" pinfunction="VSS" pintype="power_in"/>
       <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="X1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(D2-A)">
+    <net code="47" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="VBUS" pintype="power_out"/>
     </net>
-    <net code="49" name="Net-(D2-K)">
+    <net code="48" name="Net-(D2-K)">
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="50" name="Net-(FL1-IN)">
+    <net code="49" name="Net-(FL1-IN)">
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="FL1" pin="1" pinfunction="IN" pintype="passive"/>
       <node ref="L3" pin="2" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(FL1-OUT)">
+    <net code="50" name="Net-(FL1-OUT)">
       <node ref="FL1" pin="3" pinfunction="OUT" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="SIGNAL" pintype="power_in"/>
     </net>
-    <net code="52" name="Net-(L1-Pad1)">
+    <net code="51" name="Net-(L1-Pad1)">
       <node ref="L1" pin="1" pintype="passive"/>
       <node ref="L2" pin="2" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(S1-NO_2)">
+    <net code="52" name="Net-(S1-NO_2)">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="S1" pin="2" pinfunction="NO_2" pintype="passive"/>
     </net>
-    <net code="54" name="unconnected-(D1-NC-Pad2)">
+    <net code="53" name="unconnected-(D1-NC-Pad2)">
       <node ref="D1" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="55" name="unconnected-(J2-Pin_10-Pad10)">
+    <net code="54" name="unconnected-(J2-Pin_10-Pad10)">
       <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
     </net>
-    <net code="56" name="unconnected-(J2-Pin_11-Pad11)">
+    <net code="55" name="unconnected-(J2-Pin_11-Pad11)">
       <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
     </net>
-    <net code="57" name="unconnected-(J2-Pin_12-Pad12)">
+    <net code="56" name="unconnected-(J2-Pin_12-Pad12)">
       <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
     </net>
-    <net code="58" name="unconnected-(J2-Pin_13-Pad13)">
+    <net code="57" name="unconnected-(J2-Pin_13-Pad13)">
       <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
     </net>
-    <net code="59" name="unconnected-(J2-Pin_14-Pad14)">
+    <net code="58" name="unconnected-(J2-Pin_14-Pad14)">
       <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
     </net>
-    <net code="60" name="unconnected-(J2-Pin_15-Pad15)">
+    <net code="59" name="unconnected-(J2-Pin_15-Pad15)">
       <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
     </net>
-    <net code="61" name="unconnected-(J2-Pin_16-Pad16)">
+    <net code="60" name="unconnected-(J2-Pin_16-Pad16)">
       <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
     </net>
-    <net code="62" name="unconnected-(J2-Pin_17-Pad17)">
+    <net code="61" name="unconnected-(J2-Pin_17-Pad17)">
       <node ref="J2" pin="17" pinfunction="Pin_17" pintype="passive"/>
     </net>
-    <net code="63" name="unconnected-(J2-Pin_18-Pad18)">
+    <net code="62" name="unconnected-(J2-Pin_18-Pad18)">
       <node ref="J2" pin="18" pinfunction="Pin_18" pintype="passive"/>
     </net>
-    <net code="64" name="unconnected-(J2-Pin_19-Pad19)">
+    <net code="63" name="unconnected-(J2-Pin_19-Pad19)">
       <node ref="J2" pin="19" pinfunction="Pin_19" pintype="passive"/>
     </net>
-    <net code="65" name="unconnected-(J2-Pin_20-Pad20)">
+    <net code="64" name="unconnected-(J2-Pin_20-Pad20)">
       <node ref="J2" pin="20" pinfunction="Pin_20" pintype="passive"/>
     </net>
-    <net code="66" name="unconnected-(J5-Pin_10-Pad10)">
+    <net code="65" name="unconnected-(J5-Pin_10-Pad10)">
       <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
     </net>
-    <net code="67" name="unconnected-(J5-Pin_11-Pad11)">
+    <net code="66" name="unconnected-(J5-Pin_11-Pad11)">
       <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
     </net>
-    <net code="68" name="unconnected-(J5-Pin_12-Pad12)">
+    <net code="67" name="unconnected-(J5-Pin_12-Pad12)">
       <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
     </net>
-    <net code="69" name="unconnected-(J5-Pin_13-Pad13)">
+    <net code="68" name="unconnected-(J5-Pin_13-Pad13)">
       <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
     </net>
-    <net code="70" name="unconnected-(J5-Pin_14-Pad14)">
+    <net code="69" name="unconnected-(J5-Pin_14-Pad14)">
       <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
     </net>
-    <net code="71" name="unconnected-(J5-Pin_15-Pad15)">
+    <net code="70" name="unconnected-(J5-Pin_15-Pad15)">
       <node ref="J5" pin="15" pinfunction="Pin_15" pintype="passive"/>
     </net>
-    <net code="72" name="unconnected-(J5-Pin_16-Pad16)">
+    <net code="71" name="unconnected-(J5-Pin_16-Pad16)">
       <node ref="J5" pin="16" pinfunction="Pin_16" pintype="passive"/>
     </net>
-    <net code="73" name="unconnected-(J5-Pin_17-Pad17)">
+    <net code="72" name="unconnected-(J5-Pin_17-Pad17)">
       <node ref="J5" pin="17" pinfunction="Pin_17" pintype="passive"/>
     </net>
-    <net code="74" name="unconnected-(J5-Pin_18-Pad18)">
+    <net code="73" name="unconnected-(J5-Pin_18-Pad18)">
       <node ref="J5" pin="18" pinfunction="Pin_18" pintype="passive"/>
     </net>
-    <net code="75" name="unconnected-(J5-Pin_19-Pad19)">
+    <net code="74" name="unconnected-(J5-Pin_19-Pad19)">
       <node ref="J5" pin="19" pinfunction="Pin_19" pintype="passive"/>
     </net>
-    <net code="76" name="unconnected-(J5-Pin_20-Pad20)">
+    <net code="75" name="unconnected-(J5-Pin_20-Pad20)">
       <node ref="J5" pin="20" pinfunction="Pin_20" pintype="passive"/>
     </net>
-    <net code="77" name="unconnected-(J6-D+-Pad3)">
+    <net code="76" name="unconnected-(J6-D+-Pad3)">
       <node ref="J6" pin="3" pinfunction="D+" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(J6-D--Pad2)">
+    <net code="77" name="unconnected-(J6-D--Pad2)">
       <node ref="J6" pin="2" pinfunction="D-" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(J6-ID-Pad4)">
+    <net code="78" name="unconnected-(J6-ID-Pad4)">
       <node ref="J6" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(S1-COM_1-Pad3)">
+    <net code="79" name="unconnected-(S1-COM_1-Pad3)">
       <node ref="S1" pin="3" pinfunction="COM_1" pintype="passive+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(S1-NO_1-Pad1)">
+    <net code="80" name="unconnected-(S1-NO_1-Pad1)">
       <node ref="S1" pin="1" pinfunction="NO_1" pintype="passive+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(S2-COM_1-Pad3)">
+    <net code="81" name="unconnected-(S2-COM_1-Pad3)">
       <node ref="S2" pin="3" pinfunction="COM_1" pintype="passive+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(S2-NO_2-Pad2)">
+    <net code="82" name="unconnected-(S2-NO_2-Pad2)">
       <node ref="S2" pin="2" pinfunction="NO_2" pintype="passive+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U1-AT0-Pad26)">
-      <node ref="U1" pin="26" pinfunction="AT0" pintype="bidirectional+no_connect"/>
+    <net code="83" name="unconnected-(U1-AT0-Pad26)">
+      <node ref="U1" pin="26" pinfunction="AT0" pintype="no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U1-AT1-Pad27)">
-      <node ref="U1" pin="27" pinfunction="AT1" pintype="bidirectional+no_connect"/>
+    <net code="84" name="unconnected-(U1-AT1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="AT1" pintype="no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U1-PB0-Pad28)">
+    <net code="85" name="unconnected-(U1-PB0-Pad28)">
       <node ref="U1" pin="28" pinfunction="PB0" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
