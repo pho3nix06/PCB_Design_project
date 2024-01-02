@@ -1800,7 +1800,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (layer "F.Cu")
     (tstamp 5538d654-19d1-4f6b-abf6-cd83859cfc92)
-    (at 164.234 49.658)
+    (at 149.52 95.22)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (property "Sheetfile" " RF Section_sch.kicad_sch")
