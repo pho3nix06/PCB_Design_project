@@ -269,7 +269,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" (layer "F.Cu")
     (tstamp 197efb28-16c4-4f56-873b-18e411da434f)
-    (at 140.97 121.888 90)
+    (at 142.306 118.638 90)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
     (property "Sheetfile" " RF Section_sch.kicad_sch")
@@ -1198,7 +1198,7 @@
 
   (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 40cb4f40-45ac-4135-b2ff-3c99d24e9f8d)
-    (at 136.874 125.048 -90)
+    (at 138.21 121.798 -90)
     (descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
     (tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
     (property "Sheetfile" " RF Section_sch.kicad_sch")
@@ -1284,7 +1284,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 436492cd-ea0c-473b-a051-c030fed2d5d2)
-    (at 174.194 84.808)
+    (at 171.79 84.88)
     (descr "Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x10 2.54mm double row")
     (property "Sheetfile" "STM32WB breakout board.kicad_sch")
@@ -1496,7 +1496,7 @@
 
   (footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" (layer "F.Cu")
     (tstamp 4fb47eba-6d83-4b26-9491-173afca37f11)
-    (at 155.254 141.278)
+    (at 152.01 111.84 180)
     (descr "SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package")
     (tags "SMD SMT crystal")
     (property "Sheetfile" "STM32WB breakout board.kicad_sch")
@@ -1547,13 +1547,13 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7178d3d5-c567-4c84-a28c-bb7b4b809ab2))
     (fp_line (start 1 0.7) (end 0.9 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cba97268-621a-4557-8ff9-0cbadb49e6f0))
-    (pad "1" smd rect (at -0.7 0.55) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -0.7 0.55 180) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 14 "/OSC_IN") (pinfunction "1") (pintype "passive") (tstamp 671ee10a-12c3-48d5-8031-1a98c15d1846))
-    (pad "2" smd rect (at 0.7 0.55) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 0.7 0.55 180) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 28 "GND") (pinfunction "2") (pintype "passive") (tstamp b8c48d76-09fc-4377-8da4-e75ce57316c8))
-    (pad "3" smd rect (at 0.7 -0.55) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "3" smd rect (at 0.7 -0.55 180) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 13 "/OSC_OUT") (pinfunction "3") (pintype "passive") (tstamp be973a84-6343-4b1b-8a3a-7da1d77294a6))
-    (pad "4" smd rect (at -0.7 -0.55) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "4" smd rect (at -0.7 -0.55 180) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 28 "GND") (pinfunction "4") (pintype "passive") (tstamp 12474669-22f1-45e4-aa80-7bbcf417d0e0))
     (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.wrl"
       (offset (xyz 0 0 0))
@@ -1564,7 +1564,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" (layer "F.Cu")
     (tstamp 5131daaf-e265-4a12-88c2-162352bfb89f)
-    (at 145.654 130.508 -90)
+    (at 146.99 127.258 -90)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
     (property "Sheetfile" " RF Section_sch.kicad_sch")
@@ -2136,7 +2136,7 @@
 
   (footprint "LQG15WZ10NJ02D:INDC1006X60N" (layer "F.Cu")
     (tstamp 585e4fb3-6d10-41aa-9c88-76a03fa8f625)
-    (at 152.74 105.722 -90)
+    (at 153.45 105.2375 -90)
     (property "Availability" "In Stock")
     (property "Check_prices" "https://www.snapeda.com/parts/LQG15WZ10NJ02D/Murata+Electronics+North+America/view-part/?ref=eda")
     (property "Description" "\nInductor with Inductance: 10nH Tol. +/-5%, Package: 0402 (1005)\n")
@@ -2274,7 +2274,7 @@
 
   (footprint "Button_Switch_THT:SW_PUSH_6mm" (layer "F.Cu")
     (tstamp 6e4072b0-b93c-4b92-80dd-edb882b104d3)
-    (at 166.554 72.058)
+    (at 159.419 71.558)
     (descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
     (tags "tact sw push 6mm")
     (property "Arrow Part Number" "TS02-66-70-BK-160-LCR-D")
@@ -2466,7 +2466,7 @@
 
   (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" (layer "F.Cu")
     (tstamp 6fe59f79-05ab-407a-af36-da485d27809f)
-    (at 138.179 142.283)
+    (at 138.305 139.645)
     (descr "Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf")
     (tags "USB USB_B USB_micro USB_OTG")
     (property "Sheetfile" " RF Section_sch.kicad_sch")
@@ -2854,7 +2854,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tstamp 780f1676-1747-4b1f-8fb7-7fa04897185a)
-    (at 162.0725 79.16 180)
+    (at 154.9375 78.66 180)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "STM32WB breakout board.kicad_sch")
@@ -3084,7 +3084,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 9f1c3e55-5f75-42bf-8ba0-5286dab7cfc4)
-    (at 162.6 76.85)
+    (at 155.465 76.35)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "STM32WB breakout board.kicad_sch")
@@ -3138,7 +3138,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp a0484875-4027-425c-945f-eeae3ea1adca)
-    (at 174.444 114.528)
+    (at 171.77 114.64)
     (descr "Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x10 2.54mm double row")
     (property "Sheetfile" "STM32WB breakout board.kicad_sch")
@@ -3242,7 +3242,7 @@
 
   (footprint "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm" (layer "F.Cu")
     (tstamp a138353d-fac3-41af-b3df-8f0145fc6255)
-    (at 155.254 131.898)
+    (at 156.59 128.648)
     (descr "SMD Crystal 2012/2 http://txccrystal.com/images/pdf/9ht11.pdf, 2.0x1.2mm^2 package")
     (tags "SMD SMT crystal")
     (property "Sheetfile" "STM32WB breakout board.kicad_sch")
@@ -3308,7 +3308,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric" (layer "F.Cu")
     (tstamp ab4d887e-d6e1-42ab-8614-6a51b5b46466)
-    (at 161.1675 71.68)
+    (at 154.0325 71.18)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "STM32WB breakout board.kicad_sch")
@@ -3570,7 +3570,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (layer "F.Cu")
     (tstamp d23ce440-5be3-4e93-9dde-3821a53e1a3a)
-    (at 148.824 122.748)
+    (at 150.83 121.17)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (property "Sheetfile" " RF Section_sch.kicad_sch")
@@ -3949,7 +3949,7 @@
 
   (footprint "LQM21FN100M70L:INDC2012X145N" (layer "F.Cu")
     (tstamp f864facd-799b-43b3-a5c7-c495e517a2ef)
-    (at 152.74 109.12 -90)
+    (at 153.63 108.47 -90)
     (property "Availability" "In Stock")
     (property "Check_prices" "https://www.snapeda.com/parts/LQM21FN100M70L/Murata+Electronics+North+America/view-part/?ref=eda")
     (property "Description" "\nInductor with Inductance: 10uH Tol. +/-20%, Package: 0805 (2012)\n")
@@ -3993,7 +3993,7 @@
       (net 19 "/VFBSMPS") (pintype "passive") (solder_mask_margin 0.102) (tstamp a60c6c1c-a15a-49b7-a8f3-9a038aaef7af))
   )
 
-  (gr_rect (start 116.054 66.558) (end 178.054 146.558)
+  (gr_rect (start 116 66) (end 176 144)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp ae6782c9-0e1c-4cff-a439-2667c47796ba))
 
   (segment (start 147.030441 105.237307) (end 149.037442 103.230306) (width 0.25) (layer "F.Cu") (net 28) (tstamp 4d00822c-429c-4b35-af8a-0c0df658be5a))
