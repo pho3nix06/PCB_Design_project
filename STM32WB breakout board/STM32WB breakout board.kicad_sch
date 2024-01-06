@@ -3023,7 +3023,7 @@
     (property "Value" "SolderJumper_2_Open" (at 96.012 170.18 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_1812_4532Metric" (at 89.662 178.562 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (at 89.662 178.562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 89.662 178.562 0)
