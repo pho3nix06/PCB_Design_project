@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Programs and Circuits\Kicad projects\STM32WB breakout board\STM32WB breakout board.kicad_sch</source>
-    <date>01-01-2024 21:02:02</date>
+    <date>07-01-2024 12:04:49</date>
     <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -221,7 +221,7 @@
     </comp>
     <comp ref="JP1">
       <value>SolderJumper_2_Open</value>
-      <footprint>Resistor_SMD:R_1812_4532Metric</footprint>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="STM32WB breakout board.kicad_sch"/>

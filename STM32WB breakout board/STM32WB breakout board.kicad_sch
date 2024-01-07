@@ -2817,7 +2817,7 @@
     (property "Value" "32.768 kHz" (at 23.114 177.292 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm" (at 27.432 173.228 0)
+    (property "Footprint" "Crystal:Crystal_Round_D3.0mm_Vertical" (at 27.432 173.228 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.432 173.228 0)

@@ -14,7 +14,7 @@
 "13","J1, J2, J4, J5","4","Conn_02x10_Counter_Clockwise","Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical",""
 "14","J3","1","RSP-122811-02","RSP-122811-02:SAMTEC_RSP-122811-02",""
 "15","J6","1","USB_B_Micro","Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal",""
-"16","JP1","1","SolderJumper_2_Open","Resistor_SMD:R_1812_4532Metric",""
+"16","JP1","1","SolderJumper_2_Open","Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm",""
 "17","L1","1","LQM21FN100M70L","LQM21FN100M70L:INDC2012X145N",""
 "18","L2","1","LQG15WZ10NJ02D","LQG15WZ10NJ02D:INDC1006X60N",""
 "19","L3","1","LQG15HS2N7S02D","Inductor_SMD:L_0402_1005Metric",""
