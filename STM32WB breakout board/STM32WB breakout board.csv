@@ -26,4 +26,4 @@
 "25","U1","1","STM32WB15CCU6","Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm",""
 "26","U2","1","LD1117S33TR_SOT223","Package_TO_SOT_SMD:SOT-223-3_TabPin2",""
 "27","X1","1","32 MHz","Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",""
-"28","X2","1","32.768 kHz","Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm",""
+"28","X2","1","32.768 kHz","Crystal:Crystal_Round_D3.0mm_Vertical",""
